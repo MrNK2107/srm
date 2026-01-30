@@ -1,0 +1,24 @@
+{
+  "name": "zk-verified-compute-circom",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "contracts",
+    "circuits",
+    "backend",
+    "frontend",
+    "shared"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "compile:circuits": "npm run compile --workspace=circuits",
+    "compile:contracts": "npm run compile --workspace=contracts",
+    "deploy:contracts": "npm run deploy:sepolia --workspace=contracts",
+    "test": "npm test --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1"
+  }
+}

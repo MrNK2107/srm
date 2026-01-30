@@ -1,0 +1,19 @@
+{
+    "name": "zk-verified-compute-contracts",
+    "version": "1.0.0",
+    "scripts": {
+        "compile": "hardhat compile",
+        "test": "hardhat test",
+        "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "ethers": "^6.11.1"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+        "hardhat": "^2.19.0",
+        "typescript": "^5.0.0",
+        "ts-node": "^10.9.1"
+    }
+}
