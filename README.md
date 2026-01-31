@@ -1,5 +1,5 @@
-ZK-Verify Platform
-End-to-End Zero-Knowledge Verified ML Inference System
+<h1>ZK-Verify Platform</h1>
+<h2>End-to-End Zero-Knowledge Verified ML Inference System</h2>
 
 📌 Overview
 ZK-Verify is a full-stack Web3 platform that enables trustless verification of machine learning predictions using blockchain and zero-knowledge–style proof submission.
