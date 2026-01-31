@@ -7,7 +7,7 @@ Open a new terminal in the `srm` folder:
 npm run dev:backend
 ```
 
-It should say `Backend running on port 4000`.
+It should say `Backend running on port 45000`.
 
 ## 2. Start the Frontend
 Open **another** terminal in the `srm` folder:
@@ -16,7 +16,7 @@ Open **another** terminal in the `srm` folder:
 npm run dev:frontend
 ```
 
-It will show a local URL, usually `http://localhost:5173`.
+It will show a local URL, usually `http://localhost:55000`.
 Open that URL in your browser.
 
 ## 3. Demo Steps

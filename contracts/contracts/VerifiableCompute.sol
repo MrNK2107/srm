@@ -27,7 +27,7 @@ contract VerifiableCompute {
         uint256 inputHash;
         string modelCID;
         uint256 modelHash;
-        uint256 output;
+        uint256 output; // Scaled by 1e6 to store decimals (e.g., 15.1 stored as 15100000)
         bool verified;
         uint256 timestamp;
     }
@@ -67,7 +67,7 @@ contract VerifiableCompute {
         uint[2] calldata _pC
     ) external returns (uint256 jobId, bool isValid) {
         // 1. Check if model is approved (optional constraint, good for security)
-        // DISABLED FOR DEMO: require(approvedModels[_modelHash], "Model not approved");
+        // DISABLED FOR DEMO - removing check entirely for hackathon mode
 
         // 2. Construct public signals array [output, modelHash, inputHash]
         // Order MUST match the circuit public signal order!

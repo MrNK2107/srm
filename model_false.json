@@ -1,0 +1,5 @@
+{
+    "weights": [0.5, 1.2, -0.3],
+    "bias": 5.5,
+    "description": "Invalid model with only 3 weights (mismatched with input)"
+}

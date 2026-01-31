@@ -49,4 +49,5 @@ These are automatically picked up by the Vite frontend.
 - `VITE_CONTRACT_ADDRESS`: Same as `CONTRACT_ADDRESS`.
 - `VITE_CHAIN_ID`: `11155111` (This is the ID for Sepolia).
 - `VITE_BACKEND_URL`: `http://localhost:4000` (Default local backend).
+ - `VITE_BACKEND_URL`: `http://localhost:45000` (Default local backend).
 - `VITE_SEPOLIA_RPC_URL`: Same as `SEPOLIA_RPC_URL`.
